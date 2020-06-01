@@ -77,5 +77,5 @@ def project(model, inputs):
 
 
 if __name__ == '__main__':
-    runway.run(model_options={ 'checkpoint': 'stylegan2-ffhq-config-f.pkl' })
+    runway.run(model_options={ 'checkpoint': 'network-snapshot-001383.pkl' })
         #runway.run(host='localhost', port=8888, debug=True, model_options={'checkpoint': './vox-cpk.pth.tar'})
